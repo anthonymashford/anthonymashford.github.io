@@ -2,7 +2,7 @@
 layout: post
 title: New Blog Site
 subtitle: Introducing my new blog
-cover-img: /assets/img/dawn.jpg
+cover-img: /assets/img/dawn.jpeg
 thumbnail-img: /assets/img/new.jpg
 share-img: /assets/img/new.jpg
 tags: [Blog, New, Azure]
