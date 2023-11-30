@@ -3,7 +3,7 @@ layout: post
 title: New Blog Site
 subtitle: Introducing my new blog
 cover-img: /assets/img/path.jpg
-thumbnail-img: /assets/img/new.png
+thumbnail-img: /assets/img/new.jpg
 share-img: /assets/img/new.jpg
 tags: [Blog, New, Azure]
 author: Anthony Mashford
