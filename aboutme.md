@@ -3,10 +3,13 @@ layout: page
 title: About me
 subtitle: A few words about who I am
 ---
-
+<p align="center">
 <img src="https://github.com/anthonymashford/anthonymashford.github.io/blob/master/assets/img/me.jpeg?raw=true" height="300">
+
 <img src="https://github.com/anthonymashford/anthonymashford.github.io/blob/master/assets/img/mvp.png?raw=true" height="300">
-<br>
+</p>
+
+
 My name is Anthony Mashford, I am a Cloud Solutions Architect working for NetApp and a Microsoft MVP for Azure. I specialise in working with customers to help them understand the Microsoft Azure cloud and how it can transform the way their business functions and help drive innovation.
 
 I have more than two decades of experience working across various verticals including public sector. From start-up companies through to large enterprises, I have helped design, implement and support a wide range of environments.
