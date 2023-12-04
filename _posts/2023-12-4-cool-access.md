@@ -9,7 +9,7 @@ share-img: /assets/img/anf-cool.png
 tags: [Blog, Azure, Azure NetApp Files, Storage]
 author: Anthony Mashford
 ---
-
+{:.box-note}
 ## Festive Tech Calendar 2023
 
 This blog article is also part of the 2023 [Festive Tech Calendar](https://festivetechcalendar.com/). This year the Festive Tech Calendar Team are raising money for the [@RaspberryPi_org](https://www.raspberrypi.org/donate/) Foundation.
