@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2023-12-4 10:00
+date: 2023-12-15 10:00
 title: Azure storage has never been so cool
 subtitle: Storage can be boring, but now it's cool! 
 cover-img: /assets/img/anf-cool-arctic.png
@@ -58,6 +58,10 @@ It can take up to one hour for the feature to be registered. To check the featur
 ~~~
 Get-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFCoolAccess
 ~~~
+
+### Enabling Cool-Access
+
+The cool-access feature is enabled at the capacity pool level. You can enable cool-acces on a new or existing capacity pool. It is important to note that the capacity must be set to use Auto QoS.
 
 ## Summary
 
