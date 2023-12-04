@@ -3,7 +3,7 @@ layout: post
 date: 2023-12-4 10:00
 title: Azure storage has never been so cool
 subtitle: Storage can be boring, but now it's cool! 
-cover-img: /assets/img/anf-arctic-cool.jpeg
+cover-img: /assets/img/anf-cool-arctic.jpeg
 thumbnail-img: /assets/img/anf-cool.png
 share-img: /assets/img/anf-cool.png
 tags: [Blog, Azure, Azure NetApp Files, Storage]
@@ -18,7 +18,7 @@ The team believe its important to support charities who do great work. This year
 
 If you would like to donate please visit their [Just Giving Page](https://www.justgiving.com/page/festive-tech-calendar-2023)
 
-## Overview - Azure storage has never been so cool
+## Azure storage has never been so cool
 
 Recently Microsoft announced the availability in Public Preview of Cool-Access tier for Azure NetApp Files.
 
