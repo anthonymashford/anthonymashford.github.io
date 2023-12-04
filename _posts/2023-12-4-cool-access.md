@@ -49,6 +49,12 @@ The cool-access tier feature is currently in Public Preview, to enable access to
 Register-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFCoolAccess
 ~~~
 
+It can take up to one hour for the feature to be registered. To check the feature registration status, run the Azure PowerShell command below.
+
+~~~
+Get-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFCoolAccess
+~~~
+
 ## Summary
 
-In summary, Azure NetApp Files cool access tier is an excellent way for customers to save costs while maintaining enterprise-grade functionality for their file storage. By enabling standard volumes with cool access, customers can transparently store data more cost-effectively on Azure storage accounts based on its access pattern, resulting in overall cost savings 
+The Azure NetApp Files cool access tier is an excellent way for customers to save costs while maintaining enterprise-grade functionality for their file storage. By enabling standard volumes with cool access, customers can transparently store data more cost-effectively on Azure storage accounts based on its access pattern, resulting in overall cost savings 
