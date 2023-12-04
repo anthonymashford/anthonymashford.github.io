@@ -11,11 +11,11 @@ author: Anthony Mashford
 ---
 {:.box-note}
 ## Festive Tech Calendar 2023
-
+{:.box-note}
 This blog article is also part of the 2023 [Festive Tech Calendar](https://festivetechcalendar.com/). This year the Festive Tech Calendar Team are raising money for the [@RaspberryPi_org](https://www.raspberrypi.org/donate/) Foundation.
-
+{:.box-note}
 The team believe its important to support charities who do great work. This year they hope to rasie £5000 for this awesome charity!
-
+{:.box-note}
 If you would like to donate please visit their [Just Giving Page](https://www.justgiving.com/page/festive-tech-calendar-2023)
 
 ## Azure storage has never been so cool
