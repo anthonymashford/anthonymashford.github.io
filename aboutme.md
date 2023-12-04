@@ -4,9 +4,9 @@ title: About me
 subtitle: A few words about who I am
 ---
 <p align="center">
-<img src="https://github.com/anthonymashford/anthonymashford.github.io/blob/master/assets/img/me.jpeg?raw=true" height="300">
+<img src="https://github.com/anthonymashford/anthonymashford.github.io/blob/master/assets/img/me.jpeg?raw=true" height="50%">
 
-<img src="https://github.com/anthonymashford/anthonymashford.github.io/blob/master/assets/img/mvp.png?raw=true" height="300">
+<img src="https://github.com/anthonymashford/anthonymashford.github.io/blob/master/assets/img/mvp.png?raw=true" height="50%">
 </p>
 
 
