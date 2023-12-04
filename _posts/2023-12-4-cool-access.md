@@ -18,7 +18,7 @@ This blog article is also part of the 2023 [Festive Tech Calendar](https://festi
 
 ## Azure storage has never been so cool
 
-Recently Microsoft announced the availability in Public Preview of Cool-Access tier for Azure NetApp Files.
+Recently Microsoft announced the availability in **Public Preview of Cool-Access tier** for Azure NetApp Files.
 
 Azure NetApp Files is a Microsoft first-party file storage service that provides enterprise-grade functionality to customers. It offers three service levels: Ultra, Premium, and Standard. However, it also offers a cool-access tier (Public Preview) that allows customers to save costs while maintaining the same enterprise-grade functionality for their file storage.
 
