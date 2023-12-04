@@ -43,6 +43,8 @@ The cool-access feature moves cold (infrequently accessed) data transparently to
 
 ## Configure Cool-Access
 
+### Register the Resource Provider
+
 The cool-access tier feature is currently in Public Preview, to enable access to the feature you first need to register the resource provider. To register the feature, run the Azure PowerShell command below.
 
 ~~~
