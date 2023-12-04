@@ -73,7 +73,7 @@ Create a new capacity pool with cool-access
 
 This will create a cool-access enabled capacity pool.
 
-Enable cool-access in an existing capacity pool.
+**Enable cool-access on an existing capacity pool**
 1. In the Azure portal, browse to the ANF blade.
 2. Choose the capacity that you wish to enable cool-access and **Right Click**, choose **Enable Cool Access** <br>
 ![](../assets/img/anf-enable-cool-access.png)
