@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2023-12-4 10:00
+date: 2023-12-15 10:00
 title: Azure storage has never been so cool
 subtitle: Storage can be boring, but now it's cool! 
 cover-img: /assets/img/anf-cool-arctic.png
