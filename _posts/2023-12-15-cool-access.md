@@ -65,11 +65,11 @@ The cool-access feature is enabled at the capacity pool level. You can enable co
 
 Create a new capacity pool with cool-access
 1. In the Azure portal, browse to the Azure NetApp Files (ANF) blade.
-2. Choose the ANF account where is wish to create the capacity pool and select capacity pools.
+2. Choose the ANF account where is wish to create the capacity pool and select capacity pools.<br>
 ![](../assets/img/anf-capacity-pools.png)
-3. Click **Add pool**, give the pool a name, in Service level select standard and tick the **Enable Cool Access** box.
+1. Click **Add pool**, give the pool a name, in Service level select standard and tick the **Enable Cool Access** box.
 ![](../assets/img/anf-capacity-pool-cool-access.png)
-4. Click **Create**
+1. Click **Create**
 
 This will create a cool-access enabled capacity pool.
 
