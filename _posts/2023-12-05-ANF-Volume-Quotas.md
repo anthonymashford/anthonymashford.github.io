@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2023-12-05 18:00
+date: 2023-12-05 18:30
 title: Volume Quotas now GA
 subtitle: Azure NetApp Files User & Group Quotas are now GA
 cover-img: /assets/img/blogbanner.jpeg
