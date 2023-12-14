@@ -152,8 +152,6 @@ The image below shows the Azure Metrics for an ANF volumes cool tier size.
 
 ![Azure Metrics](/assets/img/cool-access-metrics.png)
 
-
-
 ## Summary
 
 The Azure NetApp Files cool-access tier is an excellent way for customers to save costs while maintaining enterprise-grade functionality for their file storage. By enabling standard volumes with cool access, customers can transparently store data more cost-effectively on Azure based on its access pattern, resulting in overall cost savings.
