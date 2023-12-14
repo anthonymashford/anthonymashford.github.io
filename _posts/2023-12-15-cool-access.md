@@ -111,6 +111,45 @@ Once you have a capacity enabled for cool-access, you can then create a cool-acc
 
 You have now enabled cool-access on an existing volume.
 
+## Cool-Acccess Retrieval Policy
+
+This policy determines the conditions under which data will be transferred back to the hot tier. The settings for this policy can be Default, On-Read, or Never.
+
+![Retrieval Policy]()
+
+Here's a breakdown of the data retrieval behavior based on the cool access retrieval policy settings:
+
+When cool access is enabled:
+- If the cool access retrieval policy is not set:
+  - The policy defaults to Default, and cold data is moved to the hot tier only when random reads are performed. Sequential reads are served directly from the cool tier.
+- If the cool access retrieval policy is set to Default:
+  - Cold data is moved by performing random reads only.
+- If the cool access retrieval policy is set to On-Read:
+  - Cold data is moved by performing both sequential and random reads.
+- If the cool access retrieval policy is set to Never:
+  - Cold data is served directly from the cool tier and is not moved to the hot tier.
+
+When cool access is disabled:
+- The cool access retrieval policy cannot be set if cool access is disabled. If there is existing data in the cool tier from previous tiering when cool access was enabled on the volume, only random reads can be performed to move this data back to the hot tier. In other words, the retrieval policy remains Default on the back end, and no further tiering will occur.
+
+The following restrictions apply to the cool access retrieval policy settings:
+
+- You cannot modify the cool access retrieval policy setting on the volume when the cool access setting is disabled.
+- Once you disable the cool access setting on the volume, the cool access retrieval policy setting automatically changes back to Default.
+
+## Montioring Cool-Access Tier
+
+There are some **Azure Metrics** that can be used to monitor volumes that have cool-access enabled. These metrics are:
+- Volume cool tier size
+- Volume cool tier data read size
+- Volume cool tier data write size
+
+Within the Azure NetApp Files Volume blade you can select **Metrics**, then choose the date/time range and the metric you wish to view. From here, you can then pin that metric to an **Azure Dashboard**.
+
+![Azure Metrics]()
+
+
+
 ## Summary
 
 The Azure NetApp Files cool-access tier is an excellent way for customers to save costs while maintaining enterprise-grade functionality for their file storage. By enabling standard volumes with cool access, customers can transparently store data more cost-effectively on Azure based on its access pattern, resulting in overall cost savings.
