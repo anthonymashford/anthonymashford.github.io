@@ -16,7 +16,7 @@ author: Anthony Mashford
 
 
 {:.box-note}
-This blog article is also part of the 2023 [Festive Tech Calendar](https://festivetechcalendar.com/){:target="_blank"}. This year the Festive Tech Calendar Team are raising money for the [@RaspberryPi_org](https://www.raspberrypi.org/donate/){:target="_blank"} Foundation. The team believe its important to support charities who do great work. This year they hope to rasie £5000 for this awesome charity! If you would like to donate please visit their [Just Giving Page](https://www.justgiving.com/page/festive-tech-calendar-2023){:target="_blank"}
+This blog article is also part of the 2023 [Festive Tech Calendar](https://festivetechcalendar.com/){:target="_blank"}. This year the Festive Tech Calendar Team are raising money for the [@RaspberryPi_org](https://www.raspberrypi.org/donate/){:target="_blank"} Foundation. The team believe its important to support charities who do great work. This year they hope to raise £5000 for this awesome charity! If you would like to donate please visit their [Just Giving Page](https://www.justgiving.com/page/festive-tech-calendar-2023){:target="_blank"}
 
 
 ## Introduction
@@ -64,7 +64,7 @@ Get-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFCoolAc
 
 ### Enabling Cool-Access
 
-The cool-access feature is enabled at the capacity pool level. You can enable cool-acces on a new or existing capacity pool. It is important to note that the capacity must be set to use Auto QoS.
+The cool-access feature is enabled at the capacity pool level. You can enable cool-access on a new or existing capacity pool. It is important to note that the capacity must be set to use Auto QoS.
 
 Create a new capacity pool with cool-access
 
@@ -111,7 +111,7 @@ Once you have a capacity enabled for cool-access, you can then create a cool-acc
 
 You have now enabled cool-access on an existing volume.
 
-## Cool-Acccess Retrieval Policy
+## Cool-Access Retrieval Policy
 
 This policy determines the conditions under which data will be transferred back to the hot tier. The settings for this policy can be Default, On-Read, or Never.
 
@@ -137,7 +137,7 @@ The following restrictions apply to the cool access retrieval policy settings:
 - You cannot modify the cool access retrieval policy setting on the volume when the cool access setting is disabled.
 - Once you disable the cool access setting on the volume, the cool access retrieval policy setting automatically changes back to Default.
 
-## Montioring Cool-Access Tier
+## Monitoring Cool-Access Tier
 
 There are some **Azure Metrics** that can be used to monitor volumes that have cool-access enabled. These metrics are:
 - Volume cool tier size
