@@ -12,7 +12,7 @@ author: Anthony Mashford
 {:.box-note}
 ## Festive Tech Calendar 2023
 
-<p align="center" width="100%">
+<p width="100%">
     <img width="100%" src=https://raw.githubusercontent.com/anthonymashford/anthonymashford.github.io/7b59855f8330d20f4782abf59e5d8a76ac6ff931/assets/img/festivetech.png?raw=true">
 </p>
 
