@@ -115,8 +115,6 @@ You have now enabled cool-access on an existing volume.
 
 This policy determines the conditions under which data will be transferred back to the hot tier. The settings for this policy can be Default, On-Read, or Never.
 
-![Retrieval Policy]()
-
 Here's a breakdown of the data retrieval behavior based on the cool access retrieval policy settings:
 
 When cool access is enabled:
@@ -137,6 +135,10 @@ The following restrictions apply to the cool access retrieval policy settings:
 - You cannot modify the cool access retrieval policy setting on the volume when the cool access setting is disabled.
 - Once you disable the cool access setting on the volume, the cool access retrieval policy setting automatically changes back to Default.
 
+The cool-access retrieval policy can be configured and adjust by editing the volumes settings. See image below.
+
+![Retrieval Policy](/assets/img/cool-access-retrieval.png)
+
 ## Monitoring Cool-Access Tier
 
 There are some **Azure Metrics** that can be used to monitor volumes that have cool-access enabled. These metrics are:
@@ -148,7 +150,7 @@ Within the Azure NetApp Files Volume blade you can select **Metrics**, then choo
 
 The image below shows the Azure Metrics for an ANF volumes cool tier size.
 
-![Azure Metrics](/assets/img/%20cool-access-metrics.png)
+![Azure Metrics](/assets/img/cool-access-metrics.png)
 
 
 
