@@ -30,7 +30,7 @@ The cool-access feature moves cold (infrequently accessed) data transparently to
 ## Considerations
 
 - The cool-access feature is currently in **Public Preview**
-- During the preview, cool-access is only available in certain regions. Link here to [Regional availability](https://learn.microsoft.com/en-us/azure/azure-netapp-files/cool-access-introduction#supported-regions)
+- During the preview, cool-access is only available in certain regions. Link here to [Regional availability](https://learn.microsoft.com/en-us/azure/azure-netapp-files/cool-access-introduction#supported-regions){:target="_blank"}
 - No guarantee is provided for any maximum latency for client workload for any of the service tiers.
 - This feature is available only at the Standard service level. It's not supported for the Ultra or Premium service level.
 - Although cool access is available for the Standard service level, how you're billed for using the feature differs from the Standard service level charges.
