@@ -6,7 +6,7 @@ subtitle: Storage can be boring, but now it's cool!
 cover-img: /assets/img/anf-cool-arctic.png
 thumbnail-img: /assets/img/anf-cool.png
 share-img: /assets/img/anf-cool.png
-tags: [Blog, Azure, Azure NetApp Files, Storage]
+tags: [Blog, Azure, Azure NetApp Files, Storage, Cool Access]
 author: Anthony Mashford
 ---
 {:.box-note}
