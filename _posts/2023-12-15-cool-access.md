@@ -12,9 +12,8 @@ author: Anthony Mashford
 {:.box-note}
 ## Festive Tech Calendar 2023
 
-<p width="100%">
-    <img width="100%" src=https://raw.githubusercontent.com/anthonymashford/anthonymashford.github.io/7b59855f8330d20f4782abf59e5d8a76ac6ff931/assets/img/festivetech.png?raw=true">
-</p>
+<img width="100%" src="https://raw.githubusercontent.com/anthonymashford/anthonymashford.github.io/7b59855f8330d20f4782abf59e5d8a76ac6ff931/assets/img/festivetech.png?raw=true">
+
 
 {:.box-note}
 This blog article is also part of the 2023 [Festive Tech Calendar](https://festivetechcalendar.com/){:target="_blank"}. This year the Festive Tech Calendar Team are raising money for the [@RaspberryPi_org](https://www.raspberrypi.org/donate/) Foundation. The team believe its important to support charities who do great work. This year they hope to rasie £5000 for this awesome charity! If you would like to donate please visit their [Just Giving Page](https://www.justgiving.com/page/festive-tech-calendar-2023)
