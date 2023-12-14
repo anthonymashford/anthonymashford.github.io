@@ -146,7 +146,7 @@ There are some **Azure Metrics** that can be used to monitor volumes that have c
 
 Within the Azure NetApp Files Volume blade you can select **Metrics**, then choose the date/time range and the metric you wish to view. From here, you can then pin that metric to an **Azure Dashboard**.
 
-The image below shows the Azure Metrics for a volumes cool tier size.
+The image below shows the Azure Metrics for an ANF volumes cool tier size.
 
 ![Azure Metrics](/assets/img/%20cool-access-metrics.png)
 
