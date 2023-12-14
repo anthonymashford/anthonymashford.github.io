@@ -20,6 +20,7 @@ author: Anthony Mashford
 ###############################################
 
 navbar-links:
+  Home: "index.html"
   About Me: "aboutme"
  # Resources:
  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
