@@ -12,6 +12,8 @@ author: Anthony Mashford
 {:.box-note}
 ## Festive Tech Calendar 2023
 
+![](../assets/img/festivetech.png)
+
 {:.box-note}
 This blog article is also part of the 2023 [Festive Tech Calendar](https://festivetechcalendar.com/). This year the Festive Tech Calendar Team are raising money for the [@RaspberryPi_org](https://www.raspberrypi.org/donate/) Foundation. The team believe its important to support charities who do great work. This year they hope to rasie £5000 for this awesome charity! If you would like to donate please visit their [Just Giving Page](https://www.justgiving.com/page/festive-tech-calendar-2023)
 
@@ -22,7 +24,7 @@ Recently Microsoft announced the availability of **Cool-Access tier** for Azure 
 
 Azure NetApp Files is a Microsoft first-party file storage service that provides enterprise-grade functionality to customers. It offers three service levels: Ultra, Premium, and Standard. However, it also offers a cool-access tier (Public Preview) that allows customers to save costs while maintaining the same enterprise-grade functionality for their file storage.
 
-The cool-access feature moves cold (infrequently accessed) data transparently to a cheaper storage tier, reducing the cost of Azure NetApp Files storage. The cool-access feature is enabled at the Capacity Pool level and can configured on a volume by volume basis. Customers can specify the number of days (the coolness period, ranging from 7 to 183 days) for inactive data to be considered "cool". Once data has reached the specified age, it is then tier to the cool-access layer. The meta data still resides in the volume, so the end users still see their data, but the blocks reside at the cool -access level.
+The cool-access feature moves cold (infrequently accessed) data transparently to a cheaper storage tier, reducing the cost of Azure NetApp Files storage. The cool-access feature is enabled at the Capacity Pool level and can configured on a volume by volume basis. Customers can specify the number of days (the coolness period, ranging from 7 to 183 days) for inactive data to be considered "cool", the default being 31 days. Once data has reached the specified age, it is then tier to the cool-access layer. The meta data still resides in the volume, so the end users still see their data, but the blocks reside at the cool -access level.
 
 ## Considerations
 
