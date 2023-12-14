@@ -46,7 +46,7 @@ The cool-access feature moves cold (infrequently accessed) data transparently to
 
 ## Configure Cool-Access
 
-The section below details how to configure Azure NetApp Files cool-access tier.
+The section below details how to configure Azure NetApp Files cool-access tier on Capacity Pools and Volumes as well as Retrieval Policy and Monitoring.
 
 ### Register the Resource Provider
 
