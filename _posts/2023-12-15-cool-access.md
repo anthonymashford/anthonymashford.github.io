@@ -47,7 +47,7 @@ The section below details how to configure Azure NetApp Files cool-access tier.
 
 ### Register the Resource Provider
 
-The cool-access tier feature is currently in Public Preview, to enable access to the feature you first need to register the resource provider. To register the feature, run the Azure PowerShell command below.
+The cool-access tier feature is currently in **Public Preview**, to enable access to the feature you first need to register the resource provider. To register the feature, run the Azure PowerShell command below.
 
 ~~~
 Register-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFCoolAccess
@@ -64,11 +64,15 @@ Get-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFCoolAc
 The cool-access feature is enabled at the capacity pool level. You can enable cool-acces on a new or existing capacity pool. It is important to note that the capacity must be set to use Auto QoS.
 
 Create a new capacity pool with cool-access
+
 1. In the Azure portal, browse to the Azure NetApp Files (ANF) blade.
+   
 2. Choose the ANF account where is wish to create the capacity pool and select capacity pools.<br>
 ![](../assets/img/anf-capacity-pools.png)
+
 3. Click **Add pool**, give the pool a name, in Service level select standard and tick the **Enable Cool Access** box.<br>
 ![](../assets/img/anf-capacity-pool-cool-access.png)
+
 4. Click **Create**
 
 This will create a cool-access enabled capacity pool.
@@ -94,8 +98,10 @@ Once you have a capacity enabled for cool-access, you can then create a cool-acc
 
 **Enable Cool-Access on an Existing Volume**
 1. To enable an existing volume with cool-access, in the ANF blade, browse to **Volumes**
+   
 2. Select to volume you wish to enable for **Cool-Access** and choose **Edit** <br>
 ![](../assets/img/anf-edit-vol.png)
+
 3. Tick the box to **Enable Cool Access** <br>
 ![](../assets/img/anf-enable-cool-access-existing-vol.png)
 4. Click **OK**
