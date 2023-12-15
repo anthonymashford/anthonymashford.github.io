@@ -9,6 +9,7 @@ share-img: /assets/img/anf-cool.png
 tags: [Blog, Azure, Azure NetApp Files, Storage, Cool Access]
 author: Anthony Mashford
 ---
+
 {:.box-note}
 ## Festive Tech Calendar 2023
 
