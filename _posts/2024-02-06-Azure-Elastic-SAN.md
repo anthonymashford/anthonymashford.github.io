@@ -63,4 +63,6 @@ Azure Elastic SAN (Storage Area Network) is a cloud-native service offered by Mi
 ## Summary
 Azure Elastic SAN (Storage Area Network) is a cloud-native service that offers a scalable, cost-effective, high-performance, and comprehensive storage solution for a range of compute options. It provides an end-to-end experience similar to on-premises SAN.
 
-It extends storage support beyond Azure Virtual Machines to include Azure Kubernetes Service (AKS), Azure VMware Solution, cloud-native applications, and edge appliances through industry standard interface iSCSI protocols1. It also offers high levels of resiliency without having to set up multiple deployments of SAN arrays and a replication policy.
+It extends storage support beyond Azure Virtual Machines to include Azure Kubernetes Service (AKS), Azure VMware Solution, cloud-native applications, and edge appliances through industry standard interface iSCSI protocols. It also offers high levels of resiliency without having to set up multiple deployments of SAN arrays and a replication policy.
+
+So, what are you waiting for, get logged into Azure and have a go at setting up your own Elastic SAN instance 😊
