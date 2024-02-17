@@ -33,7 +33,7 @@ Azure Elastic SAN (Storage Area Network) is a cloud-native service offered by Mi
 **Resources**: Each Azure Elastic SAN has two internal resources: Volume groups and volumes.
 
 ## Creating a SAN Instance
-The following section will walk you through the creation of an Azure Elastic SAN deployment. For this deployment, we will use a private endpoint to restrict access to Elastic SAn over the internet.
+The following section will walk you through the creation of an Azure Elastic SAN deployment. The service can be configured to allow access across the internet. However, for this deployment, we will use a private endpoint to restrict access to Elastic SAN over the internet.
 
 1. Login to the Azure portal and browse for **Elastic SAN**
 2. On the Elastic SAN blade, click **Create**
