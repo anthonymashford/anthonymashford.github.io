@@ -10,9 +10,9 @@ tags: [Blog, Azure, Azure Elastic SAN, Storage, Block Storage]
 author: Anthony Mashford
 ---
 
-## Microsoft Azure Elastic SAN is now GA
+## Introduction
 
-Recently Microsoft announced that Azure Elastic SAN is now generally available. 
+Microsoft recently announced that Azure Elastic SAN is now generally available. This blog article gives an overview of the service and how to deploy it.
 
 ## Overview
  
