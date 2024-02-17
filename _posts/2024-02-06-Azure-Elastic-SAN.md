@@ -2,7 +2,7 @@
 layout: post
 date: 2024-02-06 01:00
 title: Azure Elastic SAN
-subtitle: An Introduction to Azure Elastic SAN
+subtitle: An Introduction to a new Azure native storage service
 cover-img: /assets/img/blogbanner.jpeg
 thumbnail-img: /assets/img/elastic-san.svg
 share-img: /assets/img/elastic-san.svg
