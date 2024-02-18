@@ -12,7 +12,7 @@ author: Anthony Mashford
 
 ## Introduction
 
-Microsoft recently announced that Azure Elastic SAN is now generally available. This blog article gives an overview of the service and how to deploy it.
+Microsoft recently announced that Azure Elastic SAN has been made generally available. This blog article gives an overview of the service and how to deploy it.
 
 ## Overview
  
@@ -33,7 +33,7 @@ Azure Elastic SAN (Storage Area Network) is a cloud-native service offered by Mi
 **Resources**: Each Azure Elastic SAN has two internal resources: Volume groups and volumes.
 
 ## Creating a SAN Instance
-The following section will walk you through the creation of an Azure Elastic SAN deployment. The service can be configured to allow access across the internet. However, for this deployment, we will use a private endpoint to restrict access to Elastic SAN over the internet.
+The following sections will walk you through the creation of an Azure Elastic SAN instance. During the creation of the Elastic SAN service, there is an option to configure allow access across the internet. However, for this deployment, we will use a private endpoint to restrict access to Elastic SAN from the internet.
 
 1. Login to the Azure portal and browse for **Elastic SAN**
 2. On the Elastic SAN blade, click **Create**
@@ -56,7 +56,7 @@ The following section will walk you through the creation of an Azure Elastic SAN
 ![](/assets/img/esan-volume.png)
 12. On the Tags page, add your tags as appropriate.
 ![](/assets/img/esan-tags.png)
-13. Finally, click ** Review + Create**
+13. Finally, click **Review + Create**
 ![](/assets/img/esan-reviewcreate.png)
 14. That's it, you've now successfully created your Elastic SAN instance.
 ![](/assets/img/esan-success.png)
