@@ -12,7 +12,8 @@ author: Anthony Mashford
 
 ## Microsoft Announces Azure NetApp Files Backup is now Generally Available
 
-Today Microsoft announced the general availability of Azure NetApp Files Backup. More details here [ANF Backup is now GA](https://learn.microsoft.com/en-us/azure/azure-netapp-files/backup-introduction)
+Today Microsoft announced the general availability of Azure NetApp Files Backup.
+![](/assets/img/celebration.jpeg)
 
 ### Overview
 The Azure NetApp Files backup feature is designed to address long-term data protection needs. It complements the existing volume snapshots, which are primarily used for near-term recovery or cloning.
