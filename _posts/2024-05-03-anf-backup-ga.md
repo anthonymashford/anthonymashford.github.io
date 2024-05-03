@@ -13,6 +13,7 @@ author: Anthony Mashford
 ## Microsoft Announces Azure NetApp Files Backup is now Generally Available
 
 Today Microsoft announced the general availability of Azure NetApp Files Backup.
+
 ![](/assets/img/celebration.jpeg)
 
 ### Overview
