@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2024-05-03 15:00
+date: 2024-05-03 14:00
 title: Microsoft Announces Azure NetApp Files Backup is now Generally Available
 subtitle: Expanding Azure NetApp Files data protection capabilities
 cover-img: /assets/img/atl-banner.png
