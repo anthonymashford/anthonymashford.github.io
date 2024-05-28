@@ -1,7 +1,7 @@
 ---
 layout*: post
 date: 2024-05-28 13:00
-title: Azure NetApp Files Backup is now Generally Available
+title: Azure NetApp Files for for multiple Active Directory connections
 subtitle: Expanding Azure NetApp Files data protection capabilities
 cover-img: /assets/img/atl-banner.png
 thumbnail-img: /assets/img/multi-ad-thumb.png
