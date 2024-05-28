@@ -1,7 +1,7 @@
 ---
 layout*: post
 date: 2024-05-28 13:00
-title: Azure NetApp Files for for multiple Active Directory connections
+title: Azure NetApp Files support for multiple Active Directory connections (Preview)
 subtitle: Expanding Azure NetApp Files data protection capabilities
 cover-img: /assets/img/atl-banner.png
 thumbnail-img: /assets/img/multi-ad-thumb.png
