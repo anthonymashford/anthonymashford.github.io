@@ -41,7 +41,7 @@ Get-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFMultip
 ~~~
 
 ### Checking ANF AD configuration
-To check the AD configuration, once you have created a new ANF account, under overview, checked the **AD Type** setting, see image below.
+To check the AD configuration, once you have created a new ANF account, under overview, check the **AD Type** setting, see image below.
 
 ![](/assets/img/anf-multi-ad.png)
 
