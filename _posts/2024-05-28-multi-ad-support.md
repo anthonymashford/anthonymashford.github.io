@@ -34,7 +34,7 @@ The multi-AD feature is currently in **Public Preview**. In order to use it, you
 Register-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFMultipleActiveDirectory
 ~~~
 
-2. Checking to status of the feature registration. **Note:** This can take up to 60 minutes to complete.
+2. Checking the status of the feature registration. **Note:** This can take up to 60 minutes to complete.
 
 ~~~
 Get-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFMultipleActiveDirectory
