@@ -28,13 +28,13 @@ This feature allows every NetApp account in an Azure subscription to establish i
 
 The multi-AD feature is currently in **Public Preview**. In order to use it, you need to register the resource provider. Once enabled, the feature works in the backend.
 
-1. Registering the Multi-AD feature.
+- Registering the Multi-AD feature.
    
 ~~~
 Register-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFMultipleActiveDirectory
 ~~~
 
-2. Checking the status of the feature registration. **Note:** This can take up to 60 minutes to complete.
+- Checking the status of the feature registration. **Note:** This can take up to 60 minutes to complete.
 
 ~~~
 Get-AzProviderFeature -ProviderNamespace Microsoft.NetApp -FeatureName ANFMultipleActiveDirectory
