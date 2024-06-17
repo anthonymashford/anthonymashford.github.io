@@ -22,7 +22,7 @@ Below are a some requirements and considerations when customers are looking to c
 
 - It is not possible to convert an Azure NetApp Files regular volume to a **Large Volume**
 - When creating a Large Volume, the quota needs to be larger than **50TiB**
-- A Large Volume cannot be resided to less than 30% of its lowest provisioned size
+- A Large Volume cannot be resized to less than 30% of its lowest provisioned size
 - A Large Volume cannot be resized to less than 50TiB
 - A single Large Volume cannot exceed 500TiB
 - Azure NetApp Files Backup does not support LArge Volumes
