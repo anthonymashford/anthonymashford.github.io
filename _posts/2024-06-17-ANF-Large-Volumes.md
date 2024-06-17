@@ -50,6 +50,8 @@ Once you have registered the Large Volumes feature and your capacity increase ha
 
 During volume creation, simply select **Yes** for **Large Volume** and continue to create and manage to volume as any other regular volume.
 
+![](/assets/img/select-large-volume.png)
+
 ## Summary
 
 Azure NetApp Files’ Large Volumes feature enables the creation of volumes from 50 TiB to 500 TiB, catering to workloads that demand larger storage with a single namespace. The service now includes cross-zone and cross-region replication, offering enhanced data protection and availability for critical workloads, and large file content repositories, ensuring business continuity and data integrity across various scenarios.
