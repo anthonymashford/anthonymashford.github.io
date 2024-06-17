@@ -36,7 +36,7 @@ Below are a some requirements and considerations when customers are looking to c
 | Premium      | 50 to 500   | 6,400              |
 | Ultra        | 50 to 500   | 10,240             |
 
-## Support Regions
+## Supported Regions
 
 A list of supported regions can be found [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/large-volumes-requirements-considerations#supported-regions) 
 
