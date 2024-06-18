@@ -25,7 +25,7 @@ Below are a some requirements and considerations when customers are looking to c
 - A Large Volume cannot be resized to less than 30% of its lowest provisioned size
 - A Large Volume cannot be resized to less than 50TiB
 - A single Large Volume cannot exceed 500TiB
-- Azure NetApp Files Backup does not support LArge Volumes
+- Azure NetApp Files Backup does not support Large Volumes
 - Azure NetApp Files Application Volume Groups does not support Large Volumes
 - Azure NetApp Files Large Volumes are currently not suited to workloads such as SAP HANA, Oracle, SQL Server
 - Ceilings for throughput for all performance tiers of Large Volumes are capped by the existing 100TiB maximum capacity limits. Volumes can be grown to 500TiB, however, the throughput ceiling will be capped as per the table below:
