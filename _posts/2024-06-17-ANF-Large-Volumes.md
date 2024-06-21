@@ -10,6 +10,8 @@ tags: [Blog, Azure, Azure NetApp Files]
 author: Anthony Mashford
 ---
 
+# Big News! Literally... 
+
 ## Azure NetApp Files Large Volumes now Generally Available
 
 Recently, Microsoft announced that Azure NetApp Files now offers large volume capabilities, allowing for the creation of volumes ranging from 50 TiB to 500 TiB. This exceeds the standard volume size limit of 100 TiB and supports use cases requiring larger single namespace volumes, such as High-Performance Computing (HPC) in Electronic Design Automation (EDA) and Oil & Gas (O&G) industries.
