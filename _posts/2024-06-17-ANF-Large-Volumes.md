@@ -10,7 +10,7 @@ tags: [Blog, Azure, Azure NetApp Files]
 author: Anthony Mashford
 ---
 
-# Big News! Literally... 
+# Big News! Literally.....
 
 ## Azure NetApp Files Large Volumes now Generally Available
 
