@@ -23,7 +23,7 @@ There are currently five modules available on the Microsoft Learn site, these ar
 - Improve Azure NetApp Files performance for your EDA and HPC applications by using best practices
 - Using Azure NetApp Files application volume groups for SAP HANA
 
-In the next section, we will discuss these indiviudually.
+In the next section, we will take a closer look at each of these modules individually. 
 
 #### Introduction to Azure NetApp Files
 In this module, you will delve into the specific types of file-based workloads that are best suited for Azure NetApp Files, gaining a clear understanding of how this service can be optimally utilized within your cloud environment. You'll explore various workload scenarios, such as high-performance computing, enterprise-grade applications, and data-intensive operations, that benefit significantly from the capabilities of Azure NetApp Files. Additionally, the module will guide you through the advanced features of Azure NetApp Files, highlighting how its high performance and availability mirror the reliability and speed typically associated with on-premises storage solutions. You'll learn how to achieve seamless data access, reduce latency, and maintain the simplicity of management, all while leveraging the flexibility and scalability of the cloud.
