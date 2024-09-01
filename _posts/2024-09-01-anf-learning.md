@@ -51,7 +51,7 @@ This module provides an in-depth understanding of Microsoft Azure NetApp Files a
 To view the module on Microsoft Learn, use this link [Using Azure NetApp Files application volume groups for SAP HANAUsing Azure NetApp Files application volume groups for SAP HANA](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-sap-hana/?wt.mc_id=AZ-MVP-5004933?){:target="_blank"}
 
 ### Summary
-The Microsoft Learn site is an invaluable resource for expanding tech knowledge, catering to all skill levels with hands-on tutorials and interactive exercises on topics like Azure, AI, Microsoft 365, and Dynamics 365. If you are looking to to gain more knowledge about Azure NetApp Files, this then checkout the module I've decribed above, they will defintely get your knowledge up to speed sooner.
+The Microsoft Learn site is an invaluable resource for expanding tech knowledge, catering to all skill levels with hands-on tutorials and interactive exercises on topics like Azure, AI, Microsoft 365, and Dynamics 365. If you are looking to to gain more knowledge about Azure NetApp Files, this then checkout the modules I've highlighted above, they will defintely get your knowledge up to speed sooner.
 
 For more information, you can refer to the official [Microsoft Learn Documentation](https://learn.microsoft.com/en-us/azure/azure-netapp-files/cross-zone-replication-introduction){:target="_blank"}
 
