@@ -6,7 +6,7 @@ subtitle: Get up to speed with ANF on Microsoft Learn
 cover-img: /assets/img/anf-learn.jpg
 thumbnail-img: /assets/img/learn2.png
 share-img: /assets/img/learn2.png
-tags: [Blog, Azure, Azure NetApp Files]
+tags: [Blog, Azure, Azure NetApp Files, Learning]
 author: Anthony Mashford
 ---
 
