@@ -11,6 +11,7 @@ author: Anthony Mashford
 ---
 
 ## Introduction
+
 The Microsoft Learn site is a goldmine for anyone looking to expand their knowledge and skills in the tech world. Whether you're a beginner just starting out or a seasoned professional seeking to stay up-to-date with the latest technologies, Microsoft Learn offers a diverse range of modules that cater to all learning levels. With hands-on tutorials, interactive exercises, and guided learning paths, the platform provides a practical, engaging way to master everything from Azure and AI to Microsoft 365 and Dynamics 365. 
 
 In this blog we will focus on the Microsoft Learn Azure NetApp Files modules, where you can gain in-depth knowledge and experience with this powerful enterprise-grade file storage solution in the cloud. Whether you're managing large-scale workloads or seeking to optimise your storage strategy, these modules will guide you through everything you need to know.
