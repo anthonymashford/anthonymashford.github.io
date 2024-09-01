@@ -3,7 +3,7 @@ layout: post
 date: 2024-09-01 14:00
 title: Microsoft Learn Modules for Azure NetApp Files
 subtitle: Get up to speed with ANF on Microsoft Learn
-cover-img: /assets/img/anf-learn-2.jpg
+cover-img: /assets/img/anf-learn.jpg
 thumbnail-img: /assets/img/learn.png
 share-img: /assets/img/anf-announcement.png
 tags: [Blog, Azure, Azure NetApp Files]
