@@ -36,6 +36,6 @@ Customers can purchase Azure NetApp Files reserved capacity directly through the
 
 Azure NetApp Files reserved capacity presents a fantastic opportunity for businesses to lower their infrastructure costs while maintaining high performance and reliability. By committing to longer-term storage reservations, organisations can achieve significant savings and reallocate resources towards driving innovation.
 
-Explore the benefits of [Azure NetApp Files reserved capacity](https://learn.microsoft.com/en-us/azure/azure-netapp-files/reservations) today and start optimising your storage costs in Azure!
+Explore the benefits of [Azure NetApp Files reserved capacity](https://learn.microsoft.com/en-us/azure/azure-netapp-files/reservations){:target="_blank"} today and start optimising your storage costs in Azure!
 
-Additionally, check out [What's new in Azure NetApp Files](https://learn.microsoft.com/en-us/azure/azure-netapp-files/whats-new) for more updates on the service.
+Additionally, check out [What's new in Azure NetApp Files](https://learn.microsoft.com/en-us/azure/azure-netapp-files/whats-new){:target="_blank"} for more updates on the service.
