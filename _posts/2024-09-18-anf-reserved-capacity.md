@@ -22,7 +22,7 @@ By opting for one-year or three-year reserved capacity plans, customers can save
 
 #### Flexible and Comprehensive
 
-Azure NetApp Files reserved capacity can also be used with Azure NetApp Files storage with cool access and covers the “hot tier” usage in matching capacity pools.. This flexibility ensures that customers can optimise their storage costs without compromising on performance or accessibility.
+Azure NetApp Files reserved capacity can also be used with Azure NetApp Files storage with cool access and covers the “hot tier” usage in matching capacity pools. This flexibility ensures that customers can optimise their storage costs without compromising on performance or accessibility.
 
 #### Complementing Other Azure Services
 
