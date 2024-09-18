@@ -1,6 +1,6 @@
 ---
 layout*: post
-date: 2024-09-17 18:00
+date: 2024-09-18 18:00
 title: Azure NetApp Files Reserved Capacity now GA
 subtitle: Announcing the General Availability of Azure NetApp Files Reserved Capacity 
 cover-img: /assets/img/save2.jpeg
