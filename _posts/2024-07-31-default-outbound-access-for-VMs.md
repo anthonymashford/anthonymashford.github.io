@@ -22,24 +22,24 @@ Now, whilst this is a bit of a pain to deal with, its not a bad thing. Once tran
 
 So, what options do you have...
 
-## The Retirement of Default Outbound Access in Azure: What You Need to Know
+## What You Need to Know
 
 Azure is set to retire its default outbound access for virtual machines (VMs) on September 30, 2025. This change aims to enhance security and provide more control over internet connectivity for Azure resources.
 
-## What is Default Outbound Access?
+## What is Default Outbound Access?
 In Azure, VMs created in a virtual network without explicit outbound connectivity are assigned a default outbound public IP address. This IP address enables outbound internet connectivity but is subject to change and is not recommended for production workloads.
 
 ## Why the Change?
 The move to retire default outbound access is part of Azure's transition to a **secure-by-default model**. By requiring explicit outbound connectivity methods, Azure aims to:
 
-- Provide greater control over how and when VMs connect to the internet.
+- **Provide greater control** over how and when VMs connect to the internet.
 
-- Ensure traceable IP resources that you own, beneficial for measurement and troubleshooting.
+- **Ensure traceable IP resources** that you own, beneficial for measurement and troubleshooting.
 
-- Prevent disruptions caused by public IP address changes.
+- **Prevent disruptions** caused by public IP address changes.
 
 ## Transitioning to Explicit Outbound Connectivity
-To ensure a smooth transition, Azure recommends using explicit outbound connectivity methods such as:
+To ensure a smooth transition, Microsoft recommends using explicit outbound connectivity methods such as:
 
 - Azure NAT Gateway
 
@@ -49,7 +49,7 @@ To ensure a smooth transition, Azure recommends using explicit outbound connecti
 
 These methods offer more predictable and secure internet access for your VMs.
 
-## Next Steps
+## Next Steps
 If you have existing VMs using default outbound access, they will continue to work after the retirement date. However, it is strongly recommended to transition to an explicit method to avoid potential disruptions.
 
-For more detailed information, you can refer to the official announcement on the Azure website [here](https://azure.microsoft.com/en-gb/updates/default-outbound-access-for-vms-in-azure-will-be-retired-transition-to-a-new-method-of-internet-access/){:target="_blank"}
+For more detailed information, you can refer to the Microsoft Learn article [here](https://learn.microsoft.com/en-us/azure/virtual-network/ip-services/default-outbound-access){:target="_blank"}
