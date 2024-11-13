@@ -22,7 +22,7 @@ Now, whilst this is a bit of a pain to deal with, its not a bad thing. Once tran
 
 So, what options do you have...
 
-## What You Need to Know
+## What You Need to Know
 
 Azure is set to retire its default outbound access for virtual machines (VMs) on September 30, 2025. This change aims to enhance security and provide more control over internet connectivity for Azure resources.
 
