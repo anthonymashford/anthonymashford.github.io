@@ -1,7 +1,7 @@
 ---
 layout*: post
 date: 2024-12-18 12:00
-title: Azure NetApp Files Volume Enahncement
+title: Azure NetApp Files Volume Enhancement
 subtitle: Creating Volumes with the Same File Path, Share Name, or Volume Path in Different Availability Zones is Now Generally Available
 cover-img: /assets/img/atl-banner.png
 thumbnail-img: /assets/img/anf.png
