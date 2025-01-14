@@ -31,7 +31,7 @@ To allow for the setup of Backup Policy and Backup Vault, we will need some addi
 - ANF capacity pool (Standard service level)
 - ANF volume
 - Snapshot policy
-- backup Policy
+- Backup Policy
 - Backup Vault
 
 ## Building the base lab resources
