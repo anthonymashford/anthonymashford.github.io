@@ -12,17 +12,17 @@ author: Anthony Mashford
 
 ## Introduction
 
-In today’s digital age, data is the new gold. Ensuring the security and availability of data has become paramount for businesses of all sizes. Azure NetApp Files provides enterprise-grade storage and backup solutions in the cloud, offering high performance and security for critical applications. However, managing these resources manually can be time-consuming and error-prone. This is where Infrastructure as Code (IaC) tools like Terraform come into play.
+Ensuring the security and availability of data has become paramount for businesses of all sizes. Azure NetApp Files provides enterprise-grade storage and backup solutions in the cloud, offering high performance and security for critical applications. However, managing these resources manually can be time-consuming and error-prone. This is where Infrastructure as Code (IaC) tools like Terraform come into play.
 
-Terraform, developed by HashiCorp, is a powerful open-source tool that enables the safe and efficient management of cloud infrastructure. With Terraform, you can define your Azure NetApp Files Backup configuration in code, allowing for version control, automation, and repeatability.
+Terraform, developed by HashiCorp, is a powerful open-source tool that enables the safe and efficient management of cloud infrastructure. With Terraform, you can define your Azure NetApp Files Backup configuration in code, allowing for automation and repeatability.
 
-In this blog post, we’ll delve into the step-by-step process of using Terraform to configure Azure NetApp Files Backup, we will also add Azure NetApp Files Snapshot Policy for good measure 😊. 
+In this blog post, we’ll delve into the step-by-step process of using Terraform to configure Azure NetApp Files Backup, we will also add Azure NetApp Files Snapshot Policy for good measure 😊.
 
 Whether you’re an IT professional looking to streamline your operations or a developer interested in automating infrastructure, this guide will provide you with the knowledge and tools needed to leverage Terraform for this purpose.
 
 ## What are we going to build?
 
-To allow for the setup of Backup Policy and Backup Vault, we will need some additional resource sin place to start with. In this lab we will be building the following resources.
+To allow for the setup of Backup Policy and Backup Vault, we will need some additional resources in place to start with. In this lab we will be building the following.
 
 - Azure Resource Group
 - Virtual Network
@@ -36,7 +36,7 @@ To allow for the setup of Backup Policy and Backup Vault, we will need some addi
 
 ## Building the base lab resources
 
-First, we will build the base lab resources requried to ANF Backup Policy and ANF Backup Vault. Below is a snippet showing the terraform provider and the creation of a resource group. Please note, in Terraform version 4, you will need to specify the subscription ID, see example below.
+First, we will build the base lab resources requried to allow for the configuration of ANF Backup Policy and ANF Backup Vault. Below is a snippet showing the terraform provider and the creation of a resource group. Please note, in Terraform version 4, you will need to specify the subscription ID, see example below.
 
 ~~~Terraform
 provider "azurerm" {
@@ -133,7 +133,7 @@ resource "azurerm_netapp_snapshot_policy" "anf-snapshot-policy" {
 
 ## Creating a Backup Policy
 
-Now, we will created the ANF Backup Policy with daily, weekly and monthly retentions. It will also attach it to our ANF account.
+Now, we will created the ANF Backup Policy with daily, weekly and monthly retentions and attach it to our ANF account from the previous section.
 
 ~~~Terraform
 resource "azurerm_netapp_backup_policy" "anf-backup-policy" {
@@ -151,7 +151,7 @@ resource "azurerm_netapp_backup_policy" "anf-backup-policy" {
 
 ## Creating a Backup Vault
 
-The next code snippet will create and ANF backup Vault to store your backups and attached it to an ANF account.
+The next code snippet will create an ANF Backup Vault to store your backups and attached it to our ANF account.
 
 ~~~Terraform
 resource "azurerm_netapp_backup_vault" "anf-backup-vault" {
@@ -164,7 +164,7 @@ resource "azurerm_netapp_backup_vault" "anf-backup-vault" {
 
 ## Create an Azure NetApp Capacity Pool
 
-The snippet below shows an example of an Azure NetApp Files capacity pool in our ANF account with 4 TiB of Standard level storage.
+The snippet below shows an example of an Azure NetApp Files capacity pool in our ANF account with 4 TiB of Standard level storage. The capacity pool will be created in our ANF account we created earlier.
 
 ~~~Terraform
 resource "azurerm_netapp_pool" "anf-pool" {
@@ -179,7 +179,7 @@ resource "azurerm_netapp_pool" "anf-pool" {
 
 ## Create an ANF Volume
 
-In this section we will create an ANF volume in the capacity pool we created above. we will also attach the Snapshot Policy and Backup Policy and target the Backup Vault to store our backups.
+In this section we will create an ANF volume in the capacity pool we created above. We will also attach the Snapshot Policy and Backup Policy and target the Backup Vault to store our backups.
 
 ~~~Terraform
 resource "azurerm_netapp_volume" "anf-vol" {
