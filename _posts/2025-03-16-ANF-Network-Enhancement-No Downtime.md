@@ -35,7 +35,7 @@ The process to edit network features is straightforward and can be done via the 
 
 This feature is available in all Azure NetApp Files regions, making it accessible to a global audience. Whether you're running workloads in North America, Europe, Asia, or any other supported region, you can take advantage of this enhancement to optimize your cloud storage experience.
 
-For more detailed guidance on configuring network features, you can refer to the official documentation [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/configure-network-features).
+For more detailed guidance on configuring network features, you can refer to the official documentation [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/configure-network-features){:target="_blank"}.
 
 ---
 
