@@ -37,8 +37,6 @@ This feature is available in all Azure NetApp Files regions, making it accessibl
 
 For more detailed guidance on configuring network features, you can refer to the official documentation [here](https://learn.microsoft.com/en-us/azure/azure-netapp-files/configure-network-features){:target="_blank"}.
 
----
-
 ## Summary
 
 This update underscores Azure NetApp Files' commitment to providing innovative and user-centric solutions. By enabling no-downtime upgrades for network features, Microsoft empowers businesses to achieve greater agility and resilience in their cloud operations.
