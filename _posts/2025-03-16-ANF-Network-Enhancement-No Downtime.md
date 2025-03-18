@@ -21,7 +21,7 @@ Standard Network Features provide a robust virtual networking framework that enh
 - **Higher IP limits**: Ideal for workloads requiring extensive IP address allocations.
 - **Support for Network Security Groups (NSGs)**: Enabling fine-grained control over inbound and outbound traffic.
 - **User-Defined Routes (UDRs)**: Allowing customized routing for specific network traffic patterns.
-- **Enhanced Connectivity**: Including support for private endpoints and service endpoints.
+- **Enhanced Connectivity**: Includes support for VNet Global Peering
 
 ## The No-Downtime Advantage
 
