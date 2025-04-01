@@ -1,6 +1,6 @@
 ---
 layout*: post
-date: 2025-01-16 16:00
+date: 2025-03-16 16:00
 title: Update to Azure NetApp Files networking
 subtitle: Edit networking feature with no downtime now GA
 cover-img: /assets/img/atl-banner.png
