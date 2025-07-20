@@ -1,7 +1,7 @@
 ---
 layout*: post
 date: 2025-06-20 16:00
-title: Implementing BCDR Feature in Azure NetApp Files
+title: Implementing BCDR Features in Azure NetApp Files
 subtitle: Using Infrastructure-as-Code to deploy Azure NetApp Files Features
 cover-img: /assets/img/atl-banner.png
 thumbnail-img: /assets/img/anf.png
@@ -153,7 +153,20 @@ An Azure NetApp Files Backup Policy is a configuration that automates the schedu
 The code example below shows how to create the ANF Backup Policy.
 
 ~~~Terraform
-An Azure NetApp Files Backup Policy is a configuration that automates the scheduling and retention of backups for your volumes, helping ensure consistent, compliant, and long-term data protection. It lets you define how frequently backups are taken—daily, weekly, or monthly—and how many of each to retain, with the system capturing a baseline snapshot upon policy activation and transferring backups to Azure Blob Storage. Once assigned to a volume and its backup vault, the policy runs independently to safeguard data without manual intervention, providing a scalable and cost-effective solution for disaster recovery, governance, and operational continuity.
+resource "azurerm_netapp_backup_policy" "anf_backup_policy" {
+  name                    = "anf-lab-backup-policy"
+  resource_group_name     = azurerm_resource_group.anf_bcdr_rg.name
+  location                = azurerm_resource_group.anf_bcdr_rg.location
+  account_name            = azurerm_netapp_account.anf_account.name
+  enabled                 = true
+  daily_backups_to_keep   = 7
+  weekly_backups_to_keep  = 4
+  monthly_backups_to_keep = 12
+
+  tags = {
+    Environment = "lab"
+  }
+}
 ~~~
 
 ## Craeting ANF Snapshot Policy
