@@ -227,7 +227,7 @@ resource "azurerm_netapp_pool" "anf_pool" {
 }
 ~~~
 
-## Creating ANf Volume
+## Creating ANF Volume
 
 An Azure NetApp Files (ANF) volume is a high-performance, scalable storage resource allocated within a capacity pool in Azure, designed to support enterprise-grade workloads such as databases, virtual desktops, and containerised applications. Each volume is provisioned with a chosen service level—Standard, Premium or Ultra—which determines its throughput capability, and is accessed via a delegated subnet within an Azure virtual network. ANF volumes support multiple protocols including NFS and SMB, and offer advanced capabilities such as snapshot policies, cross-region replication, and integration with proximity placement groups for improved latency. Export policies govern access rules, and volumes can be customised with quotas, encryption and tiering features to suit varied performance and compliance requirements.
 
