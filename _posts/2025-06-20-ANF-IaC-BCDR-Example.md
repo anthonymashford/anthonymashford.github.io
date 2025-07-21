@@ -36,7 +36,7 @@ We are going to build a lab environment that will include the following resource
 
 In the following sections we will see examples of how to implement these features.
 
-## Creating the Reource Group
+## Creating the Resource Group
 
 First, we are going to create an Azure Resource Group. We will do this in the **main** file. This file will set the Terraform version requirement, the provider and features. You will need to add your subscription ID to this file were indicated.
 
