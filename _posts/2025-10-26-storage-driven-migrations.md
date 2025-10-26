@@ -10,8 +10,6 @@ tags: [Blog, Azure, Azure NetApp Files, Backup, Replication]
 author: Anthony Mashford
 ---
 
-# **Why Storage-Driven Migrations to Azure Matter More Than Ever**
-
 As organisations accelerate their journey to the cloud, one truth remains clear: **data is at the heart of digital transformation**. Yet too often, cloud migrations start with applications rather than the foundation that supports them — storage.
 
 That’s where **Azure NetApp Files** comes in. As a Microsoft Azure native, first-party storage service, Azure NetApp Files provides the **high performance, low latency, and enterprise-grade reliability** needed to make storage-driven migrations seamless. It enables customers to move even their most demanding workloads — such as SAP, Oracle, or virtual desktop environments — to Azure with confidence.
