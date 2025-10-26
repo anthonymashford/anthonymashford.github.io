@@ -3,7 +3,7 @@ layout*: post
 date: 2025-10-26 12:00
 title: Why Storage-Driven Migrations to Azure Matter Even More Than Ever
 subtitle: Start with storage. Scale with confidence. Innovate without limits.
-cover-img: /assets/img/whystoragematters.png
+cover-img: /assets/img/atl-banner.png
 thumbnail-img: /assets/img/anf.png
 share-img: /assets/img/anf.png
 tags: [Blog, Azure, Azure NetApp Files, Backup, Replication]
