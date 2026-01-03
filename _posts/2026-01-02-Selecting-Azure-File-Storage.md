@@ -141,6 +141,7 @@ Azure NetApp Files Standard (Service Level): **~6643/month**
 #### ANF Cons
 
 * 1 TiB provisioning increments can lead to small rounding overhead.
+* Marginally more expensive than AFPv2.
 
 ---
 
