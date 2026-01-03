@@ -1,6 +1,6 @@
 ---
 layout*: post
-date: 2025-12-22 12:00
+date: 2026-01-02 12:00
 title: Selecting File Storage on Azure: Avoiding False Economies
 subtitle: How to prevent under-scoped designs and unplanned spend driven by hidden requirements.
 cover-img: /assets/img/atl-banner.png
