@@ -12,7 +12,7 @@ author: Anthony Mashford
 
 ## Introduction
 
-**"Price is what you pay, value is what you get"- Warren Buffett.** That line stuck with me, and it’s exactly what prompted this blog post.
+Credit where it’s due: **Dan Soderholm** from Microsoft who recently shared a Warren Buffett quote with me, **"Price is what you pay, value is what you get"- Warren Buffett.** That line stuck with me, and it’s exactly what prompted this blog post.
 
 If you have a some time free, then I think you'll find this blog article useful. However, If you're in a hurry, please jump the [TL;DR](#tldr) for a cutdown version.
 
