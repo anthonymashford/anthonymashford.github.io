@@ -16,7 +16,7 @@ Credit where it’s due: **Dan Soderholm** from Microsoft who recently shared a 
 
 If you have a some time free, then I think you'll find this blog article useful. However, If you're in a hurry, please jump the [TL;DR](#tldr) for a cutdown version.
 
-Selecting a file storage service in Azure can look deceptively simple: compare the £/GiB headline rate, pick the cheapest option that meets today’s capacity requirement, and move on. In practice, that approach often creates a “false economy” — a design that appears cost-efficient on day one, but accumulates unplanned spend as soon as real-world requirements surface.
+Selecting a file storage service in Azure can look deceptively simple: compare the $/GiB headline rate, pick the cheapest option that meets today’s capacity requirement, and move on. In practice, that approach often creates a “false economy” — a design that appears cost-efficient on day one, but accumulates unplanned spend as soon as real-world requirements surface.
 
 File storage is rarely just “some capacity.” It is performance (throughput and IOPS) under peak load, predictable latency for user experience and batch windows, and availability characteristics that align to business impact. It is also integration: identity and access controls, networking and security boundaries, backup and retention, ransomware protection, monitoring, and the operational effort to run it reliably at scale. Many of these elements don’t show up in a price-per-GB comparison, yet they directly influence what you must provision, how you must architect, and ultimately what you will pay.
 
@@ -93,14 +93,14 @@ Private Endpoints (x8) including Bandwdith (22TiB/in 22TiB/out): **~$508/month**
 
 #### Azure NetApp Files
 
-Azure NetApp Files Standard (Service Level): **~6643/month**
+Azure NetApp Files Standard (Service Level): **~$6643/month**
 
 > Total: **~$6643**
 
 *Important reminder:* Even though the Azure Files storage offering comes out marginally cheaper than Azure NetApp Files, it is important to remember these points.
 
 * There are no hidden costs with ANF, you simply pay for the amount of storage consumed.
-* AF has hidden costs that can be extremely difficult to quanify.
+* AF has hidden costs that can be extremely difficult to quantify.
 * ANF has no public endpoint. It is secure by design.
 * AF has public endpoints that need to be locked down.
 * ANF injects straight into the VNet.
