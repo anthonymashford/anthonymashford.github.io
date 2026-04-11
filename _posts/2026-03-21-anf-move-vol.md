@@ -8,6 +8,7 @@ thumbnail-img: /assets/img/anf.png
 share-img: /assets/img/anf.png
 tags: [Blog, Azure, Azure NetApp Files, Terraform, Backup, Replication, AVD, FSLogix, Zone Redundant]
 author: Anthony Mashford
+---
 
 # Deploying Azure NetApp Files with Terraform — Including Non-Disruptive Volume Migration
 
