@@ -1,7 +1,7 @@
 ---
 layout*: post
 date: 2026-03-21 12:00
-title: Non-disruptively ANF Volume Move Using Terraform
+title: Non-disruptively Move an ANF Volume Using Terraform
 subtitle: Deploying Azure NetApp Files with Terraform — Including Non-Disruptive Volume Migration.
 cover-img: /assets/img/atl-banner.png
 thumbnail-img: /assets/img/anf.png
