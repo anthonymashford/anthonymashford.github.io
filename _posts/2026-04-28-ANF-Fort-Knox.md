@@ -10,7 +10,7 @@ tags: [Blog, Azure, Azure NetApp Files, Terraform, Backup, Replication, AVD, FSL
 author: Anthony Mashford
 ---
 
-## Azure NetApp Files: Secure by Default, Resilient by Design
+## Introduction
 
 When architecting enterprise-grade file storage in the cloud, security and resilience aren't just checkboxes—they are the foundation. As cloud architects, we are constantly evaluating services to ensure they meet stringent compliance and availability requirements. Enter **Azure NetApp Files (ANF)**. 
 
