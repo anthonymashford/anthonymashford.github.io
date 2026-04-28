@@ -10,7 +10,7 @@ tags: [Blog, Azure, Azure NetApp Files, Terraform, Backup, Replication, AVD, FSL
 author: Anthony Mashford
 ---
 
-# Deploying Azure NetApp Files with Terraform — Including Non-Disruptive Volume Migration
+## Deploying Azure NetApp Files with Terraform — Including Non-Disruptive Volume Migration
 
 Azure NetApp Files (ANF) is Microsoft's enterprise-grade, high-performance NFS and SMB file storage service built directly into Azure. Whether you're running Oracle databases, SAP HANA, high-throughput AI/ML pipelines, or persistent Kubernetes volumes, ANF delivers the low latency and throughput that general-purpose Azure storage simply can't match.
 
@@ -294,7 +294,7 @@ terraform plan -var="subscription_id=<your-subscription-id>"
 
 The plan output will show something like:
 
-```
+```hcl
   ~ resource "azurerm_netapp_volume" "nfs_vol_001" {
       ~ pool_name     = "pool-standard-4tb" -> "pool-premium-4tb"
       ~ service_level = "Standard" -> "Premium"
@@ -341,7 +341,7 @@ Non-disruptive pool migration is one of ANF's standout operational capabilities,
 
 ## Complete File Structure
 
-```
+```hcl
 anf-lab/
 ├── providers.tf
 ├── variables.tf
