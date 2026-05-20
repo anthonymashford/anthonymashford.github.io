@@ -28,7 +28,7 @@ Under the hood, this is ONTAP FlexCache delivered as a first-party Azure service
 
 When a client reads data already in the cache, it's served locally at ANF performance. When a client reads something not yet cached, the cache fetches the block from the origin, stores it, and serves it. Every subsequent read for that block is local. Over time, the working set warms up and the WAN traffic falls off a cliff — which, unlike most things that fall off cliffs, is the desired outcome.
 
-## Reads are interesting. Writes are where it gets clever.
+## Reads are interesting. Writes are where it gets clever
 
 Cache volumes support two write modes, and the choice materially changes the workload characteristics:
 
