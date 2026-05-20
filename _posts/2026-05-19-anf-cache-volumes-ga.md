@@ -118,6 +118,8 @@ Cache volumes quietly change the unit of hybrid storage architecture. You stop a
 
 For workloads that have been sitting awkwardly between on-prem ONTAP and Azure compute, hoping nobody notices the latency, this is the bridge that's been missing. GA means SLA-backed, production-supported, and ready for the workloads you've quietly been holding back from the cloud.
 
+For more information on the Azure NetApp Files service, check out the [What's new in Azure NetApp Files](https://learn.microsoft.com/en-us/azure/azure-netapp-files/whats-new){:target="_blank"} page.
+
 ---
 
 *If you're planning a cache volume deployment and want to talk through the design — origin sizing, write mode selection, peering topology, or anything network-adjacent — drop me a message.*
