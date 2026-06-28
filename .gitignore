@@ -13,3 +13,5 @@ Gemfile.lock
 beautiful-jekyll-theme-*.gem
 .github/copilot-instructions.md
 .gitignore
+/anthonymashford.github.io
+/Untitled
