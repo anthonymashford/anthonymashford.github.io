@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 580" width="1200" height="580" font-family="Segoe UI, Helvetica Neue, Arial, sans-serif">
+  <defs>
+    <marker id="arrGreen" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#107C10"/>
+    </marker>
+    <marker id="arrGrey" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#6B4FBB"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="580" fill="#FFFFFF"/>
+
+  <text x="600" y="38" text-anchor="middle" font-size="23" font-weight="600" fill="#1B1B1B">Where the Cloud PC network interface lives decides everything</text>
+  <text x="600" y="64" text-anchor="middle" font-size="14" fill="#5A5A5A">Azure NetApp Files is a private service reachable only from a connected virtual network. The Cloud PC has to be on that network.</text>
+
+  <!-- ================= LEFT PANEL ================= -->
+  <rect x="30" y="90" width="550" height="465" rx="10" fill="#FAFAFA" stroke="#D9D9D9"/>
+  <text x="55" y="120" font-size="17" font-weight="600" fill="#1B1B1B">Option A — Microsoft Hosted Network</text>
+  <text x="55" y="142" font-size="12.5" fill="#666666">Windows 365 owns the network. There is no customer VNet.</text>
+
+  <rect x="55" y="165" width="225" height="175" rx="8" fill="#EAF3FB" stroke="#0078D4"/>
+  <text x="167" y="189" text-anchor="middle" font-size="11.5" fill="#0078D4">Microsoft-managed subscription</text>
+  <rect x="75" y="205" width="185" height="115" rx="6" fill="#FFFFFF" stroke="#0078D4"/>
+  <text x="167" y="235" text-anchor="middle" font-size="15" font-weight="600" fill="#1B1B1B">Cloud PC</text>
+  <text x="167" y="258" text-anchor="middle" font-size="11" fill="#666666">vNIC in a Microsoft VNet</text>
+  <text x="167" y="278" text-anchor="middle" font-size="11" fill="#666666">Microsoft Entra joined</text>
+  <text x="167" y="302" text-anchor="middle" font-size="11" fill="#666666">Internet egress only</text>
+
+  <rect x="330" y="165" width="225" height="250" rx="8" fill="#F5F2FB" stroke="#6B4FBB"/>
+  <text x="442" y="189" text-anchor="middle" font-size="11.5" fill="#6B4FBB">Your subscription</text>
+  <rect x="350" y="205" width="185" height="190" rx="6" fill="#FFFFFF" stroke="#6B4FBB"/>
+  <text x="442" y="230" text-anchor="middle" font-size="14" font-weight="600" fill="#1B1B1B">snet-anf</text>
+  <text x="442" y="249" text-anchor="middle" font-size="10" fill="#666666">Microsoft.NetApp/volumes</text>
+  <rect x="368" y="264" width="149" height="115" rx="6" fill="#F1F8F1" stroke="#2E7D32"/>
+  <text x="442" y="291" text-anchor="middle" font-size="13" font-weight="600" fill="#1B1B1B">ANF volume</text>
+  <text x="442" y="312" text-anchor="middle" font-size="10" fill="#666666">40 TiB SMB3 share</text>
+  <text x="442" y="330" text-anchor="middle" font-size="10" fill="#666666">no public endpoint</text>
+  <text x="442" y="356" text-anchor="middle" font-size="10" fill="#666666">reachable only from</text>
+  <text x="442" y="370" text-anchor="middle" font-size="10" fill="#666666">a connected VNet</text>
+
+  <line x1="284" y1="270" x2="326" y2="270" stroke="#C4314B" stroke-width="2" stroke-dasharray="5 4"/>
+  <line x1="298" y1="260" x2="316" y2="280" stroke="#C4314B" stroke-width="3"/>
+  <line x1="316" y1="260" x2="298" y2="280" stroke="#C4314B" stroke-width="3"/>
+
+  <text x="305" y="452" text-anchor="middle" font-size="13.5" font-weight="600" fill="#C4314B">No IP path. Different network boundary.</text>
+  <text x="305" y="476" text-anchor="middle" font-size="12" fill="#666666">The dataset has to be copied to the Cloud PC disk, staged</text>
+  <text x="305" y="494" text-anchor="middle" font-size="12" fill="#666666">through another service, or reached over a published app.</text>
+  <text x="305" y="524" text-anchor="middle" font-size="11.5" font-style="italic" fill="#8A8A8A">Every copy is a new governance problem.</text>
+
+  <!-- ================= RIGHT PANEL ================= -->
+  <rect x="620" y="90" width="550" height="465" rx="10" fill="#FAFAFA" stroke="#D9D9D9"/>
+  <text x="645" y="120" font-size="17" font-weight="600" fill="#1B1B1B">Option B — Azure Network Connection (ANC)</text>
+  <text x="645" y="142" font-size="12.5" fill="#666666">Windows 365 injects the Cloud PC vNIC into a VNet you own.</text>
+
+  <rect x="645" y="160" width="500" height="66" rx="8" fill="#EAF3FB" stroke="#0078D4"/>
+  <text x="895" y="184" text-anchor="middle" font-size="11.5" fill="#0078D4">Microsoft-managed subscription</text>
+  <text x="895" y="207" text-anchor="middle" font-size="13" fill="#1B1B1B">Cloud PC compute — the VM itself still runs here</text>
+
+  <line x1="895" y1="226" x2="895" y2="252" stroke="#6B4FBB" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#arrGrey)"/>
+  <text x="908" y="245" font-size="11" fill="#6B4FBB">vNIC injected by the ANC</text>
+
+  <rect x="645" y="258" width="500" height="245" rx="8" fill="#F5F2FB" stroke="#6B4FBB"/>
+  <text x="895" y="281" text-anchor="middle" font-size="11.5" fill="#6B4FBB">Your subscription — VNet 10.10.0.0/16, Standard network features</text>
+
+  <rect x="665" y="294" width="205" height="190" rx="6" fill="#FFFFFF" stroke="#6B4FBB"/>
+  <text x="767" y="318" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1B1B1B">snet-cloudpc</text>
+  <text x="767" y="335" text-anchor="middle" font-size="10" fill="#666666">10.10.1.0/24</text>
+  <rect x="683" y="348" width="169" height="118" rx="6" fill="#EAF3FB" stroke="#0078D4"/>
+  <text x="767" y="375" text-anchor="middle" font-size="13" font-weight="600" fill="#1B1B1B">Cloud PC vNIC</text>
+  <text x="767" y="397" text-anchor="middle" font-size="10.5" fill="#666666">10.10.1.14</text>
+  <text x="767" y="417" text-anchor="middle" font-size="10.5" fill="#666666">Hybrid Entra joined</text>
+  <text x="767" y="443" text-anchor="middle" font-size="10.5" fill="#666666">routes, NSGs and DNS</text>
+  <text x="767" y="457" text-anchor="middle" font-size="10.5" fill="#666666">are yours to control</text>
+
+  <rect x="920" y="294" width="205" height="190" rx="6" fill="#FFFFFF" stroke="#6B4FBB"/>
+  <text x="1022" y="318" text-anchor="middle" font-size="13.5" font-weight="600" fill="#1B1B1B">snet-anf</text>
+  <text x="1022" y="335" text-anchor="middle" font-size="10" fill="#666666">Microsoft.NetApp/volumes</text>
+  <rect x="938" y="348" width="169" height="118" rx="6" fill="#F1F8F1" stroke="#2E7D32"/>
+  <text x="1022" y="375" text-anchor="middle" font-size="13" font-weight="600" fill="#1B1B1B">ANF volume</text>
+  <text x="1022" y="397" text-anchor="middle" font-size="10.5" fill="#666666">10.10.3.4</text>
+  <text x="1022" y="417" text-anchor="middle" font-size="10.5" fill="#666666">SMB3 or dual-protocol</text>
+  <text x="1022" y="443" text-anchor="middle" font-size="10.5" fill="#666666">snapshots, replication,</text>
+  <text x="1022" y="457" text-anchor="middle" font-size="10.5" fill="#666666">one authoritative copy</text>
+
+  <line x1="874" y1="405" x2="916" y2="405" stroke="#107C10" stroke-width="2.5" marker-end="url(#arrGreen)"/>
+
+  <text x="895" y="527" text-anchor="middle" font-size="13.5" font-weight="600" fill="#107C10">SMB 3.x over TCP 445, private IP to private IP.</text>
+  <text x="895" y="547" text-anchor="middle" font-size="12" fill="#666666">The data stays where it is. The desktop comes to it.</text>
+</svg>
