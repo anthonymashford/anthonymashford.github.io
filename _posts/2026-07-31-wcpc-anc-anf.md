@@ -38,6 +38,10 @@ The contrast is worth stating plainly, because "supports both protocols" and "su
 
 So the analyst's `Z:` and the training job's `/mnt/corpus` can be the same bytes. The only thing missing is a route from the desktop.
 
+Just one more thing. Another capability that aligns well with this architecture is the Azure NetApp Files Object REST API. While Azure NetApp Files is typically associated with high-performance NFS and SMB access, the Object REST API exposes the same underlying data through an S3-compatible interface without requiring it to be copied into a separate object storage platform. This allows analytics, AI and data engineering services that natively understand S3 APIs to work directly against data already stored on Azure NetApp Files, eliminating duplicate datasets, reducing operational complexity and maintaining a single authoritative source of truth. Much like using Azure Network Connections to provide Cloud PCs with direct access to enterprise datasets, the Object REST API helps organisations bring applications to the data rather than moving the data to the applications, improving governance, reducing storage costs and simplifying data lineage.
+
+For a deeper look at the Azure NetApp Files Object REST API and its analytics use cases, have a look at this link: [Getting Insights from Azure NetApp Files with the Object REST API](https://www.azuretechlab.com/2026-05-24-anf-object-rest-api/)
+
 ## The mechanism: what the Azure Network Connection actually does
 
 Windows 365 Enterprise gives you two network deployment models.
