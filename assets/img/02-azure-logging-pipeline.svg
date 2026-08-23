@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 760" width="1200" height="760" role="img" aria-labelledby="title02 desc02">
+  <title id="title02">The Azure logging pipeline: collect, shape, tier, retain, use</title>
+  <desc id="desc02">A left to right flow. Sources feed data collection rules, which filter and transform data before it lands in a Log Analytics workspace split across Analytics, Basic and Auxiliary table plans, with long term retention beneath. Consumers include alerts, workbooks, Sentinel, Grafana and search jobs.</desc>
+
+  <rect x="0" y="0" width="1200" height="760" rx="10" fill="#10222C"/>
+
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <text x="56" y="66" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" letter-spacing="3.2" fill="#EE6B21">THE PIPELINE</text>
+    <text x="56" y="112" font-size="38" font-weight="700" fill="#E8EEF0">Collect once. Shape early. Tier deliberately.</text>
+    <text x="56" y="146" font-size="17" fill="#8AA0AA">Where the bill is decided is not where the data is read.</text>
+  </g>
+  <line x1="56" y1="180" x2="1144" y2="180" stroke="#2A4653" stroke-width="1"/>
+
+  <!-- ============ 1. SOURCES ============ -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <rect x="56" y="220" width="220" height="300" rx="8" fill="#17303C" stroke="#2A4653"/>
+    <text x="76" y="252" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="12" letter-spacing="2" fill="#45AEC4">01 / SOURCES</text>
+    <g font-size="15" fill="#C6D3D8">
+      <text x="76" y="292">Azure resource logs</text>
+      <text x="76" y="322">Activity log</text>
+      <text x="76" y="352">VMs and containers</text>
+      <text x="76" y="382">App traces and metrics</text>
+      <text x="76" y="412">Identity and sign-ins</text>
+      <text x="76" y="442">Firewalls, proxies, DNS</text>
+      <text x="76" y="472">On-prem and other cloud</text>
+    </g>
+  </g>
+
+  <path d="M286 370 L326 370" stroke="#EE6B21" stroke-width="2" marker-end="url(#arw)"/>
+
+  <!-- ============ 2. DCR ============ -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <rect x="336" y="220" width="220" height="300" rx="8" fill="#17303C" stroke="#EE6B21" stroke-width="1.5"/>
+    <text x="356" y="252" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="12" letter-spacing="2" fill="#EE6B21">02 / COLLECTION RULES</text>
+    <g font-size="15" fill="#C6D3D8">
+      <text x="356" y="292">Drop the noise</text>
+      <text x="356" y="322">Trim fat columns</text>
+      <text x="356" y="352">Normalise and enrich</text>
+      <text x="356" y="382">Route per table</text>
+    </g>
+    <line x1="356" y1="410" x2="536" y2="410" stroke="#2A4653"/>
+    <text x="356" y="440" font-size="13" fill="#8AA0AA">The cheapest gigabyte is</text>
+    <text x="356" y="460" font-size="13" fill="#8AA0AA">the one you never ingest.</text>
+    <text x="356" y="490" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="12" fill="#45AEC4">transformKql</text>
+  </g>
+
+  <path d="M566 370 L606 370" stroke="#EE6B21" stroke-width="2" marker-end="url(#arw)"/>
+
+  <!-- ============ 3. WORKSPACE ============ -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <rect x="616" y="220" width="528" height="300" rx="8" fill="#17303C" stroke="#2A4653"/>
+    <text x="640" y="252" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="12" letter-spacing="2" fill="#45AEC4">03 / LOG ANALYTICS WORKSPACE — TABLE PLANS</text>
+
+    <!-- analytics -->
+    <rect x="640" y="270" width="480" height="62" rx="6" fill="#10222C" stroke="#EE6B21" stroke-width="1.5"/>
+    <text x="660" y="296" font-size="17" font-weight="700" fill="#EE6B21">Analytics</text>
+    <text x="660" y="318" font-size="14" fill="#8AA0AA">Full KQL, alert rules, dashboards. Your detection surface.</text>
+    <text x="1100" y="303" text-anchor="end" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" fill="#C6D3D8">££££</text>
+
+    <!-- basic -->
+    <rect x="640" y="344" width="480" height="62" rx="6" fill="#10222C" stroke="#45AEC4" stroke-width="1.5"/>
+    <text x="660" y="370" font-size="17" font-weight="700" fill="#45AEC4">Basic</text>
+    <text x="660" y="392" font-size="14" fill="#8AA0AA">30-day query window, pay per search. Troubleshooting depth.</text>
+    <text x="1100" y="377" text-anchor="end" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" fill="#C6D3D8">££</text>
+
+    <!-- auxiliary -->
+    <rect x="640" y="418" width="480" height="62" rx="6" fill="#10222C" stroke="#3B5A68" stroke-width="1.5"/>
+    <text x="660" y="444" font-size="17" font-weight="700" fill="#C6D3D8">Auxiliary / Lake</text>
+    <text x="660" y="466" font-size="14" fill="#8AA0AA">High volume, low touch. Verbose logs and audit trails.</text>
+    <text x="1100" y="451" text-anchor="end" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" fill="#C6D3D8">£</text>
+  </g>
+
+  <!-- retention rail -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <path d="M880 520 L880 556" stroke="#2A4653" stroke-width="2" marker-end="url(#arwq)"/>
+    <rect x="616" y="566" width="528" height="90" rx="8" fill="#17303C" stroke="#2A4653"/>
+    <text x="640" y="596" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="12" letter-spacing="2" fill="#45AEC4">04 / LONG-TERM RETENTION</text>
+    <text x="640" y="618" font-size="15" fill="#C6D3D8">Up to 12 years in place. Search jobs and restore bring</text>
+    <text x="640" y="638" font-size="15" fill="#C6D3D8">it back on the day it suddenly matters.</text>
+  </g>
+
+  <!-- ============ CONSUMERS ============ -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <text x="56" y="580" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="12" letter-spacing="2" fill="#EE6B21">05 / WHAT YOU GET BACK</text>
+    <g font-size="15" fill="#C6D3D8">
+      <rect x="56" y="598" width="230" height="40" rx="6" fill="#10222C" stroke="#2A4653"/>
+      <text x="76" y="624">Alerts and remediation</text>
+      <rect x="56" y="650" width="230" height="40" rx="6" fill="#10222C" stroke="#2A4653"/>
+      <text x="76" y="676">Workbooks and Grafana</text>
+      <rect x="336" y="598" width="220" height="40" rx="6" fill="#10222C" stroke="#2A4653"/>
+      <text x="356" y="624">Sentinel detections</text>
+      <rect x="336" y="650" width="220" height="40" rx="6" fill="#10222C" stroke="#2A4653"/>
+      <text x="356" y="676">Audit and evidence</text>
+    </g>
+  </g>
+
+  <!-- recorder tape motif -->
+  <g stroke="#EE6B21" stroke-width="2" opacity="0.85">
+    <path d="M616 706 v12 M636 706 v12 M656 706 v12 M676 706 v12 M696 706 v12 M716 706 v12 M736 706 v12 M756 706 v12"/>
+  </g>
+  <g stroke="#2A4653" stroke-width="2">
+    <path d="M776 706 v12 M796 706 v12 M816 706 v12 M836 706 v12 M856 706 v12 M876 706 v12 M896 706 v12 M916 706 v12 M936 706 v12 M956 706 v12 M976 706 v12 M996 706 v12 M1016 706 v12 M1036 706 v12 M1056 706 v12 M1076 706 v12 M1096 706 v12 M1116 706 v12 M1136 706 v12"/>
+  </g>
+
+  <defs>
+    <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#EE6B21"/>
+    </marker>
+    <marker id="arwq" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#2A4653"/>
+    </marker>
+  </defs>
+</svg>

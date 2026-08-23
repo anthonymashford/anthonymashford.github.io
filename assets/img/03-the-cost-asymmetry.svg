@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 660" width="1200" height="660" role="img" aria-labelledby="title03 desc03">
+  <title id="title03">The cost asymmetry of logging</title>
+  <desc id="desc03">An illustrative comparison. The visible annual cost of telemetry is a small bar. The cost of a single serious incident without telemetry is a much taller stack of engineer hours, extended downtime, consultants, regulatory exposure and undetected dwell time. A third open-ended bar represents reputational cost, which never arrives as an invoice.</desc>
+
+  <rect x="0" y="0" width="1200" height="660" rx="10" fill="#10222C"/>
+
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <text x="56" y="66" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" letter-spacing="3.2" fill="#EE6B21">THE AWKWARD ARITHMETIC</text>
+    <text x="56" y="112" font-size="38" font-weight="700" fill="#E8EEF0">One of these turns up on a bill</text>
+    <text x="56" y="146" font-size="17" fill="#8AA0AA">The rest turn up anyway.</text>
+  </g>
+  <line x1="56" y1="180" x2="1144" y2="180" stroke="#2A4653" stroke-width="1"/>
+
+  <!-- baseline -->
+  <line x1="80" y1="540" x2="1144" y2="540" stroke="#3B5A68" stroke-width="2"/>
+
+  <!-- BAR A: telemetry spend -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <rect x="140" y="470" width="200" height="70" rx="4" fill="#EE6B21"/>
+    <text x="240" y="452" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" fill="#EE6B21">VISIBLE. ARGUED OVER.</text>
+    <text x="240" y="576" text-anchor="middle" font-size="17" font-weight="700" fill="#E8EEF0">Annual telemetry spend</text>
+    <text x="240" y="600" text-anchor="middle" font-size="14" fill="#8AA0AA">Ingestion, retention, a bit of query</text>
+  </g>
+
+  <!-- BAR B: incident stack -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <rect x="500" y="480" width="200" height="60" rx="0" fill="#3B5A68"/>
+    <rect x="500" y="390" width="200" height="86" rx="0" fill="#4A6B79"/>
+    <rect x="500" y="331" width="200" height="55" rx="0" fill="#5B8494"/>
+    <rect x="500" y="252" width="200" height="75" rx="0" fill="#45AEC4"/>
+    <rect x="500" y="188" width="200" height="60" rx="0" fill="#E3A93A"/>
+
+    <g font-size="13" fill="#10222C" font-weight="600">
+      <text x="600" y="516" text-anchor="middle" fill="#E8EEF0">Engineer hours burned</text>
+      <text x="600" y="440" text-anchor="middle" fill="#E8EEF0">Extended downtime</text>
+      <text x="600" y="364" text-anchor="middle" fill="#E8EEF0">Emergency consultants</text>
+      <text x="600" y="296" text-anchor="middle">Regulatory exposure</text>
+      <text x="600" y="224" text-anchor="middle">Undetected dwell time</text>
+    </g>
+
+    <text x="600" y="164" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" fill="#E3A93A">INVISIBLE. UNTIL IT ISN'T.</text>
+    <text x="600" y="576" text-anchor="middle" font-size="17" font-weight="700" fill="#E8EEF0">One serious incident, blind</text>
+    <text x="600" y="600" text-anchor="middle" font-size="14" fill="#8AA0AA">Every hour spent guessing is billed twice</text>
+  </g>
+
+  <!-- BAR C: trust -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <rect x="880" y="200" width="200" height="340" rx="4" fill="none" stroke="#8AA0AA" stroke-width="2" stroke-dasharray="6 7"/>
+    <text x="980" y="350" text-anchor="middle" font-size="60" font-weight="700" fill="#2A4653">?</text>
+    <text x="980" y="164" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" fill="#8AA0AA">NO INVOICE ARRIVES</text>
+    <text x="980" y="576" text-anchor="middle" font-size="17" font-weight="700" fill="#E8EEF0">Customer trust</text>
+    <text x="980" y="600" text-anchor="middle" font-size="14" fill="#8AA0AA">Paid in full, in instalments, later</text>
+  </g>
+
+  <text x="56" y="636" font-size="13" fill="#5B7583">Illustrative. Your numbers will be different. The shape rarely is.</text>
+
+  <!-- recorder tape motif -->
+  <g stroke="#EE6B21" stroke-width="2" opacity="0.85">
+    <path d="M980 626 v12 M1000 626 v12 M1020 626 v12 M1040 626 v12"/>
+  </g>
+  <g stroke="#2A4653" stroke-width="2">
+    <path d="M1060 626 v12 M1080 626 v12 M1100 626 v12 M1120 626 v12 M1140 626 v12"/>
+  </g>
+</svg>

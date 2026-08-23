@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700" role="img" aria-labelledby="title01 desc01">
+  <title id="title01">The same outage, twice — resolution timeline with and without logs</title>
+  <desc id="desc01">Two timelines. Without logs, an incident takes 14 hours 20 minutes and ends with an unknown root cause. With logs, the same incident is resolved in 47 minutes with a written root cause analysis.</desc>
+
+  <rect x="0" y="0" width="1200" height="700" rx="10" fill="#10222C"/>
+
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <text x="56" y="66" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" letter-spacing="3.2" fill="#EE6B21">INCIDENT REPLAY</text>
+    <text x="56" y="112" font-size="38" font-weight="700" fill="#E8EEF0">The same outage, twice</text>
+    <text x="56" y="146" font-size="17" fill="#8AA0AA">One estate has telemetry. The other has opinions.</text>
+  </g>
+  <line x1="56" y1="180" x2="1144" y2="180" stroke="#2A4653" stroke-width="1"/>
+
+  <!-- ================= LANE 1: WITHOUT LOGS ================= -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <text x="56" y="222" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" letter-spacing="2.4" fill="#8AA0AA">WITHOUT LOGS</text>
+
+    <line x1="100" y1="300" x2="924" y2="300" stroke="#3B5A68" stroke-width="3" stroke-dasharray="10 7"/>
+    <path d="M924 300 L952 300" stroke="#E3A93A" stroke-width="3" marker-end="url(#arwAmber)"/>
+
+    <g>
+      <circle cx="100" cy="300" r="8" fill="#10222C" stroke="#8AA0AA" stroke-width="3"/>
+      <circle cx="340" cy="300" r="8" fill="#10222C" stroke="#8AA0AA" stroke-width="3"/>
+      <circle cx="580" cy="300" r="8" fill="#10222C" stroke="#8AA0AA" stroke-width="3"/>
+      <circle cx="796" cy="300" r="8" fill="#10222C" stroke="#8AA0AA" stroke-width="3"/>
+    </g>
+
+    <g font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" fill="#E3A93A">
+      <text x="100" y="268">00:00</text>
+      <text x="340" y="268">01:30</text>
+      <text x="580" y="268">05:00</text>
+      <text x="796" y="268">11:00</text>
+    </g>
+
+    <g font-size="15" fill="#C6D3D8">
+      <text x="100" y="336">Alert fires.</text>
+      <text x="100" y="356" fill="#8AA0AA">Nobody knows why.</text>
+
+      <text x="340" y="336">Restart everything</text>
+      <text x="340" y="356" fill="#8AA0AA">and hope.</text>
+
+      <text x="580" y="336">Blame the network.</text>
+      <text x="580" y="356" fill="#8AA0AA">Network blames you.</text>
+
+      <text x="796" y="336">Vendor ticket raised.</text>
+      <text x="796" y="356" fill="#8AA0AA">"Please send logs."</text>
+    </g>
+
+    <!-- terminal outcome -->
+    <rect x="972" y="252" width="172" height="96" rx="8" fill="#17303C" stroke="#E3A93A" stroke-width="1.5"/>
+    <text x="994" y="284" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="14" fill="#E3A93A">14:20</text>
+    <text x="994" y="310" font-size="15" fill="#E8EEF0">Service restored.</text>
+    <text x="994" y="332" font-size="15" fill="#E3A93A">Cause: unknown.</text>
+  </g>
+
+  <!-- ================= LANE 2: WITH LOGS ================= -->
+  <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
+    <text x="56" y="424" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" letter-spacing="2.4" fill="#EE6B21">WITH LOGS</text>
+
+    <rect x="430" y="440" width="714" height="54" rx="6" fill="none" stroke="#2A4653" stroke-width="1" stroke-dasharray="4 5"/>
+    <text x="787" y="466" text-anchor="middle" font-size="15" fill="#8AA0AA">everything from here on is the outage you did not have</text>
+    <text x="787" y="486" text-anchor="middle" font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" fill="#45AEC4">13h 33m of business hours, handed back to the business</text>
+
+    <line x1="100" y1="540" x2="1144" y2="540" stroke="#2A4653" stroke-width="3"/>
+    <line x1="100" y1="540" x2="352" y2="540" stroke="#EE6B21" stroke-width="4"/>
+
+    <g>
+      <circle cx="100" cy="540" r="8" fill="#10222C" stroke="#EE6B21" stroke-width="3"/>
+      <circle cx="163" cy="540" r="8" fill="#10222C" stroke="#EE6B21" stroke-width="3"/>
+      <circle cx="226" cy="540" r="8" fill="#10222C" stroke="#EE6B21" stroke-width="3"/>
+      <circle cx="289" cy="540" r="8" fill="#10222C" stroke="#EE6B21" stroke-width="3"/>
+      <circle cx="352" cy="540" r="9" fill="#EE6B21" stroke="#EE6B21" stroke-width="3"/>
+    </g>
+
+    <g font-family="'JetBrains Mono',SFMono-Regular,Consolas,monospace" font-size="13" fill="#45AEC4">
+      <text x="100" y="514">00:00</text>
+      <text x="163" y="514">00:06</text>
+      <text x="226" y="514">00:18</text>
+      <text x="289" y="514">00:31</text>
+      <text x="352" y="514">00:47</text>
+    </g>
+
+    <g stroke="#2A4653" stroke-width="1">
+      <path d="M100 556 L100 576" fill="none"/>
+      <path d="M163 556 L163 606" fill="none"/>
+      <path d="M226 556 L226 576" fill="none"/>
+      <path d="M289 556 L289 606" fill="none"/>
+      <path d="M352 556 L352 576" fill="none"/>
+    </g>
+
+    <g font-size="14" fill="#C6D3D8">
+      <text x="92" y="594">Alert</text>
+      <text x="155" y="624">Query logs</text>
+      <text x="218" y="594">Change found</text>
+      <text x="281" y="624">Rolled back</text>
+      <text x="344" y="594" fill="#EE6B21">Resolved. RCA written.</text>
+    </g>
+  </g>
+
+  <!-- recorder tape motif -->
+  <g stroke="#EE6B21" stroke-width="2" opacity="0.85">
+    <path d="M700 664 v12 M720 664 v12 M740 664 v12 M760 664 v12 M780 664 v12 M800 664 v12"/>
+  </g>
+  <g stroke="#2A4653" stroke-width="2">
+    <path d="M820 664 v12 M840 664 v12 M860 664 v12 M880 664 v12 M900 664 v12 M920 664 v12 M940 664 v12 M960 664 v12 M980 664 v12 M1000 664 v12 M1020 664 v12 M1040 664 v12 M1060 664 v12 M1080 664 v12 M1100 664 v12 M1120 664 v12 M1140 664 v12"/>
+  </g>
+
+  <defs>
+    <marker id="arwAmber" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#E3A93A"/>
+    </marker>
+  </defs>
+</svg>
