@@ -90,13 +90,13 @@ Successful health-check pings you'll never query. Debug-level chatter from a wel
 
 Log Analytics gives you three table plans, and the price difference between the ends of the range is roughly an order of magnitude or two — not a rounding error.
 
-| | **Analytics** | **Basic** | **Auxiliary / Lake** |
+||**Analytics**|**Basic**|**Auxiliary / Lake**|
 |---|---|---|---|
-| **Ingestion cost** | Highest | ~4–5x cheaper | ~40x+ cheaper |
-| **Query** | Full KQL, no per-query charge | Per-GB scanned, single table | Per-GB scanned, single table, unoptimised |
-| **Query window** | Full interactive retention | 30 days (search jobs beyond) | Full total retention |
-| **Alert rules** | Yes | No | No |
-| **Best for** | Detections, dashboards, anything you alert on | Troubleshooting depth you query occasionally | Verbose logs, audit trails, compliance evidence |
+|**Ingestion cost**|Highest|~4–5x cheaper|~40x+ cheaper|
+|**Query**|Full KQL, no per-query charge|Per-GB scanned, single table|Per-GB scanned, single table, unoptimised|
+|**Query window**|Full interactive retention|30 days (search jobs beyond)|Full total retention|
+|**Alert rules**|Yes|No|No|
+|**Best for**|Detections, dashboards, anything you alert on|Troubleshooting depth you query occasionally|Verbose logs, audit trails, compliance evidence|
 
 Interactive retention on Analytics tables includes the first 31 days in the ingestion price, extendable to two years. Total retention stretches to twelve years across the plans — long enough for most regulatory regimes and several changes of CISO.
 
