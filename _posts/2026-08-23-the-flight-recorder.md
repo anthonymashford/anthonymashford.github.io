@@ -6,7 +6,7 @@ subtitle: Why logging is the first line item cut, and the first thing you'll wis
 cover-img: /assets/img/atl-banner.png
 thumbnail-img: /assets/img/health-monitoring.svg
 share-img: /assets/img/health-monitoring.svg
-tags: [Blog, Azure, Azure NetApp Files, Terraform, Backup, Replication, W365 Cloud PC, Zone Redundant]
+tags: [Blog, Azure, Azure NetApp Files, Terraform, Backup, Replication, Monitoring, Zone Redundant]
 author: Anthony Mashford
 ---
 
