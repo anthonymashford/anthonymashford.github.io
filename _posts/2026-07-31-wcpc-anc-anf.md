@@ -4,8 +4,8 @@ date: 2026-07-31 12:00
 title: Bring the Desktop to the Data
 subtitle: Mounting Azure NetApp Files on Windows 365 Cloud PCs
 cover-img: /assets/img/atl-banner.png
-thumbnail-img: /assets/img/anf.png
-share-img: /assets/img/anf.png
+thumbnail-img: /assets/img/cloud-computing-data.svg
+share-img: /assets/img/cloud-computing-data.svg
 tags: [Blog, Azure, Azure NetApp Files, Terraform, Backup, Replication, W365 Cloud PC, Zone Redundant]
 author: Anthony Mashford
 ---
