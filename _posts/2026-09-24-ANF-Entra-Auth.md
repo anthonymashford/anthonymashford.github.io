@@ -2,7 +2,7 @@
 layout*: post
 date: 2026-09-24 12:00
 title: Who Let the Dog Out?
-subtitle: WMicrosoft Entra Kerberos for Azure NetApp Files Is in Public Preview
+subtitle: Microsoft Entra Kerberos for Azure NetApp Files Is in Public Preview
 cover-img: /assets/img/atl-banner.png
 thumbnail-img: /assets/img/entra.svg
 share-img: /assets/img/entra.svg
