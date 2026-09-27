@@ -2,7 +2,7 @@
 layout*: post
 date: 2026-09-27 12:00
 title: ANF & Entra Kerberos...The DNS Puzzle
-subtitle: Making Microsoft Entra Kerberos Authentication Work with Azure NetApp Files
+subtitle: Name resolution for Azure NetApp Files volumes
 cover-img: /assets/img/atl-banner.png
 thumbnail-img: /assets/img/anf.png
 share-img: /assets/img/anf.png
