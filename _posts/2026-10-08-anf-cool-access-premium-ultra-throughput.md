@@ -1,8 +1,8 @@
 ---
 layout*: post
-date: 2026-09-27 12:00
-title: ANF & Entra Kerberos...The DNS Puzzle
-subtitle: Name resolution for Azure NetApp Files volumes using EntraID Kerberos Authentication
+date: 2026-10-08 12:00
+title: ANF Storage with cool access enhancement 
+subtitle: Maximum Effort, Minimum Penalty - ANF Cool Access Gets a Throughput Upgrade volumes using EntraID Kerberos Authentication
 cover-img: /assets/img/anf-cool-access-premium-ultra-banner.png
 thumbnail-img: /assets/img/anf.png
 share-img: /assets/img/anf.png
