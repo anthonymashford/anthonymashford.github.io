@@ -4,7 +4,7 @@ date: 2026-10-08 12:00
 title: ANF Storage with cool access enhancement 
 subtitle: Maximum Effort, Minimum Penalty - ANF Cool Access Gets a Throughput Upgrade
 cover-img: /assets/img/anf-cool-access-premium-ultra-banner.png
-thumbnail-img: /assets/img/anf.png
+thumbnail-img: /assets/img/anf-cool-access-icon.png
 share-img: /assets/img/anf.png
 tags: [Blog, Azure, Azure NetApp Files, Terraform, Backup, Replication, W365 Cloud PC, Zone Redundant]
 author: Anthony Mashford
