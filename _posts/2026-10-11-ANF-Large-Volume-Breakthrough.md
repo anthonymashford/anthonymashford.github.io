@@ -10,9 +10,7 @@ tags: [Blog, Azure, Azure NetApp Files, Terraform, Backup, Replication, W365 Clo
 author: Anthony Mashford
 ---
 
-![Six coloured beams of light converging and breaking through a wall](breakthrough-mode-header.png)
-
-## Azure NetApp Files Large Volume Breakthrough Mode: Six Endpoints, One Very Fast Volume
+## Introductions
 
 *What it is, what it does, and where it fits (and where it doesn't).*
 
