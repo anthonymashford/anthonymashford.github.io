@@ -12,6 +12,12 @@ author: Anthony Mashford
 
 ## Introduction
 
+Some feature names are quietly descriptive. Others sound like something a stunt coordinator shouts before a car goes through a shop window.
+
+**Breakthrough mode** is firmly in the second camp.
+
+The good news is that, unusually, the name is earned. Breakthrough mode removes the throughput ceiling that applies to standard Azure NetApp Files large volumes. It does that with a sensible piece of architecture rather than anything magical. Let's walk through what it is, the numbers behind it, and the caveats worth knowing before anyone gets carried away.
+
 *What it is, what it does, and where it fits (and where it doesn't).*
 
 ---
@@ -24,14 +30,6 @@ author: Anthony Mashford
 - **For:** EDA, HPC, AI/ML pipelines and other parallel, metadata-heavy workloads.
 - **Not for:** database data and log volumes, or converting an existing regular volume.
 - **How:** register large volumes, request breakthrough mode, then select it at volume creation.
-
----
-
-Some feature names are quietly descriptive. Others sound like something a stunt coordinator shouts before a car goes through a shop window.
-
-**Breakthrough mode** is firmly in the second camp.
-
-The good news is that, unusually, the name is earned. Breakthrough mode removes the throughput ceiling that applies to standard Azure NetApp Files large volumes. It does that with a sensible piece of architecture rather than anything magical. Let's walk through what it is, the numbers behind it, and the caveats worth knowing before anyone gets carried away.
 
 ---
 
