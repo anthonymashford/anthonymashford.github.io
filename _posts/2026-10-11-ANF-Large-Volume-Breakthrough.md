@@ -10,7 +10,7 @@ tags: [Blog, Azure, Azure NetApp Files, Terraform, Backup, Replication, W365 Clo
 author: Anthony Mashford
 ---
 
-## Introductions
+## Introduction
 
 *What it is, what it does, and where it fits (and where it doesn't).*
 
